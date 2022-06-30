@@ -9,8 +9,5 @@
         <module name="BallsNeat" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="BallsNeat" target="18" />
-    </bytecodeTargetLevel>
   </component>
 </project>
