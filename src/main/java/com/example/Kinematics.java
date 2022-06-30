@@ -1,6 +1,7 @@
 package com.example;
 
 import java.lang.reflect.Array;
+import java.time.Instant;
 import java.util.ArrayList;
 
 import static java.lang.Math.*;
@@ -15,6 +16,9 @@ public class Kinematics {
     }
 
     public double[] calc(double x, double y, double z) {
+
+        long ups=Instant.now().toEpochMilli();
+
 
         double alfa3 = acos(y / (sqrt(y * y + z * z)));
         ///y=y'

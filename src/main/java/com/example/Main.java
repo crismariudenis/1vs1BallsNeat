@@ -16,9 +16,11 @@ public class Main extends PApplet {
     public void setup() {
 //        frameRate(100);
         p = this;
-        Player p1=new Player()
-        Match m = new Match()
-        NeuralNetwork n=new NeuralNetwork(new int[]{3,3,4});
+        Player p1 = new Player();
+        Player p2 = new Player();
+
+        Match m = new Match(p1, p2, true);
+        NeuralNetwork n = new NeuralNetwork(new int[]{3, 3, 4});
     }
 
     public void draw() {
